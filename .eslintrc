@@ -1,14 +1,12 @@
 {
-  "extends": "standard",
+  "extends": ["standard", "standard-react"],
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module"
   },
   "rules": {
-    "max-len": ["error", 120],
     "no-console": "off",
-    "prefer-arrow-callback": 1,
-    "linebreak-style": "off"
+    "prefer-arrow-callback": 2,
   },
   "globals": {
     "_": true
